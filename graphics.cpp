@@ -86,12 +86,12 @@ void initUsers() {
     // and height = (height of screen * 0.136)
     // centered in the top left corner of the graphics window
     user1.setColor(white);
-    user1.setSize(width * 0.008,height * 0.070);
-    user1.setCenter(width * 0.85, height/2);
+    user1.setSize(width * 0.005,height * 0.070);
+    user1.setCenter(width * 0.855, height/2);
     user1.setXVelocity(-0.63);
     // Initialize User2
     user2.setColor(white);
-    user2.setSize(width * 0.008,height * 0.070);
+    user2.setSize(width * 0.005,height * 0.070);
     user2.setCenter(width * 0.02, height/2);
     user2.setXVelocity(0.63);
 }

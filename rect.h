@@ -1,0 +1,85 @@
+#ifndef FINAL_PROJECT_RECT_H
+#define FINAL_PROJECT_RECT_H
+
+#include "shape.h"
+
+struct dimensions {
+    double width;
+    double height;
+
+    /* Constructors */
+    dimensions();
+    dimensions(double w, double h);
+
+    /* Overloaded Operator */
+    friend std::ostream& operator << (std::ostream& outs, const dimensions &d);
+};
+
+//struct point
+//{
+//    double z;
+//};
+
+class Rect : public Shape {
+private:
+    dimensions size;
+public:
+    /* Constructors */
+    Rect();
+    explicit Rect(dimensions size);
+    explicit Rect(color fill);
+    explicit Rect(point2D center);
+    Rect(color fill, point2D center);
+    Rect(double red, double green, double blue, double alpha);
+    Rect(double x, double y);
+    //Rect(color fill, point center, unsigned int width, unsigned int height);
+    Rect(double red, double green, double blue, double alpha, double x, double y);
+    Rect(color fill, double x, double y);
+    Rect(double red, double green, double blue, double alpha, point2D center);
+    Rect(color fill, dimensions size);
+    Rect(point2D center, dimensions size);
+    Rect(color fill, point2D center, dimensions size);
+    Rect(double red, double green, double blue, double alpha, dimensions size);
+    Rect(double x, double y, dimensions size);
+    Rect(double red, double green, double blue, double alpha, double x, double y, dimensions size);
+    Rect(color fill, double x, double y, dimensions size);
+    Rect(double red, double green, double blue, double alpha, point2D center, dimensions size);
+
+    /* Destructor */
+    virtual ~Rect() = default;
+
+    /* Getters */
+    dimensions getSize() const;
+    double getWidth() const;
+    double getHeight() const;
+    double getLeftX() const override;
+    double getRightX() const override;
+    double getTopY() const override;
+    double getBottomY() const override;
+
+    /* Setters */
+    void setSize(dimensions size);
+    void setSize(double width, double height);
+    void setWidth(double width);
+    void setHeight(double height);
+    void changeSize(double deltaWidth, double deltaHeight);
+    void changeWidth(double delta);
+    void changeHeight(double delta);
+
+    //move
+    void move(double deltaX, double deltaY, double deltaZ);
+
+    //rotate
+    void rotate(double theta_x, double theta_y, double theta_z);
+
+    /* Check if two Rect objects are overlapping */
+    bool isOverlapping(const Rect &r) const;
+
+    /* Draw */
+    void draw() const override;
+    virtual void drawBlack() const;
+
+};
+
+
+#endif //GRAPHICSEXAMPLES_RECT_H

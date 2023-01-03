@@ -1,0 +1,5 @@
+/Users/filipskulimowski/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok -B /Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok/cmake-build-debug
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok/cmake-build-debug

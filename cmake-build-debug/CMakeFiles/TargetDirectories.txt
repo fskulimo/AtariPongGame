@@ -1,0 +1,3 @@
+/Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok/cmake-build-debug/CMakeFiles/graphics.dir
+/Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/filipskulimowski/CLionProjects/Final-Project-fskulimo-myinkaok/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -3,7 +3,7 @@
 ![](../../Desktop/Screenshot 2023-01-03 at 3.33.02 PM.png)
 ![](../../Desktop/Screenshot 2023-01-03 at 4.05.27 PM.png)
 ---
-## Description
+### Description
 The final project assignment for my advanced programming class was to create a complex
 project that utilized two large concepts from the course material. I decided to implement
 the concepts of inheritance and polymorphism with our knowledge of OpenGL graphics to recreate
@@ -15,13 +15,13 @@ to each other once two minutes of game time has passed. Overall, I had a great t
 as prior to this I had limited game development knowledge, It was especially fun using the different backgrounds to
 display the various components of graphics I learned using GLUT and OpenGL.
 ---
-## Setup Instructions
+### Setup Instructions
 To run this game, OpenGL and GLUT are required. This project was compiled using 
 CMake, in order to do so as well <mark style="background-color: #ADD8E6">freeglut.dll</mark> 
 has to be included in your debug folder. This project has been configured to run natively
 on macOS only, it may not compile and run on a Windows machine.
 ---
-## How To Play
+### How To Play
 When the game is booted up, it will take up your full screen. The user will be greeted with 
 a menu that will allow them to choose the background to play Pong on. The default option is
 the plain old black screen that Atari Pong used to be played on. The galaxy option is a bit more dynamic

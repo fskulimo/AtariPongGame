@@ -1,7 +1,7 @@
 # Atari_Pong
 
-![](../../Desktop/Screenshot 2023-01-03 at 3.33.02 PM.png)
-![](../../Desktop/Screenshot 2023-01-03 at 4.05.27 PM.png)
+![Pong Menu](images/backMenu.png)
+![In-Game](images/playScreen.png)
 ---
 ## Description
 The final project assignment for my advanced programming class was to create a complex
